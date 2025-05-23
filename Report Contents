@@ -1,0 +1,73 @@
+CFSS-Internship-Project/
+│
+├── README.md                      # Main project documentation
+├── LICENSE                        # MIT License file
+│
+├── report/
+│   ├── CFSS_Project_Report.pdf    # Original PDF report
+│   └── README.md                  # Report overview with key findings
+│
+├── vulnerability_scanning/
+│   ├── nessus/
+│   │   ├── install_nessus.sh      # Installation script
+│   │   ├── config.md              # Configuration notes
+│   │   └── scan_results/          # Sample scan outputs
+│   │       └── metasploitable_scan_2023.csv
+│   │
+│   └── nmap/
+│       ├── network_scan.sh        # LAN scanning script
+│       └── results/               # Nmap scan outputs
+│           └── lan_scan_results.txt
+│
+├── reconnaissance/
+│   ├── sublist3r/
+│   │   ├── install_sublist3r.sh   # Installation script
+│   │   ├── scan_bbc.com.sh        # Subdomain scan script
+│   │   └── results/
+│   │       └── bbc_subdomains.txt # 350+ discovered subdomains
+│   │
+│   └── wayback_machine/
+│       ├── bbc_2010_snapshot.png  # Historical screenshot
+│       └── wayback_usage.md       # Documentation
+│
+├── exploitation/
+│   ├── metasploit/
+│   │   ├── vsftpd_exploit.md      # Privilege escalation steps
+│   │   └── payloads.txt           # Used payloads
+│   │
+│   └── password_cracking/
+│       ├── john/
+│       │   ├── install_john.sh    # Installation script
+│       │   ├── crack_zip.sh       # Password cracking script
+│       │   └── examples/
+│       │       ├── test.zip       # Sample protected file
+│       │       └── rockyou.txt    # Wordlist (placeholder)
+│       │
+│       └── hydra/
+│           └── http_bruteforce.md # Alternative method docs
+│
+├── phishing_simulation/
+│   ├── camphish/
+│   │   ├── install_camphish.sh    # Setup script
+│   │   ├── config_ngrok.md        # Ngrok configuration
+│   │   └── ethical_guidelines.md  # Responsible usage
+│   │
+│   └── awareness_materials/       # For employee training
+│       ├── phishing_guide.md
+│       └── security_checklist.pdf
+│
+├── incident_response/
+│   ├── ecommerce_breach_plan.md   # Detailed response plan
+│   └── templates/
+│       ├── incident_report.docx
+│       └── notification_email.md
+│
+├── wireless_security/
+│   ├── wpa3_research.md           # Security protocol analysis
+│   └── recommendations.md         # Implementation guide
+│
+└── images/                        # All visual evidence
+    ├── nessus_scan_dashboard.png
+    ├── bbc_subdomains_netcraft.png
+    ├── metasploit_root_access.png
+    └── camphish_webpage.png
