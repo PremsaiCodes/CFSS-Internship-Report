@@ -19,3 +19,26 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+## Included Files
+1. **LICENSE**: MIT License text file
+2. **Scripts**: Ready-to-run installation/scan scripts for all tools
+3. **Documentation**: 
+   - Detailed Markdown files for each module
+   - Ethical usage guidelines
+   - Incident response templates
+4. **Sample Data**:
+   - Anonymized scan results
+   - Placeholder files for demonstration
+
+## How to Use
+1. Create new repository on GitHub
+2. Upload this structure
+3. Add actual:
+   - Scan results (CSV/TXT)
+   - Screenshots (PNG/JPG)
+   - Scripts with executable permissions
+4. Update README.md with your personal details
+
+This repository showcases both technical skills and professional documentation abilities - perfect for your cybersecurity portfolio! Would you like me to provide any specific file contents (e.g., actual script code or report sections)?
